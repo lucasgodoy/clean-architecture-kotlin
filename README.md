@@ -7,6 +7,11 @@
 - Dependency flow always points inward
 
 #### COMPONENTS
+
+<p align="center">
+  <img width="600px" src="./clean_arch.jpg">
+</p>
+
 - **entities**, **application** and **adapters** layers
 - **entities** are fully independent of any other layer
 - **application** only depends on **entities**
