@@ -1,0 +1,11 @@
+rootProject.name = 'clean_architecture_kotlin_structure'
+
+include('project1')
+include('project1:adapters')
+include('project1:application')
+include('project1:entities')
+
+include('project2')
+include('project2:adapters')
+include('project2:application')
+include('project2:entities')

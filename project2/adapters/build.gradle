@@ -1,0 +1,15 @@
+plugins {
+    id "org.jetbrains.kotlin.plugin.spring" version "$kotlin_version"
+    id "org.springframework.boot" version "$spring_version"
+    id "io.spring.dependency-management" version "$spring_dependencies_version"
+}
+
+group 'org.project2.adapters'
+
+dependencies {
+    implementation project(":project2:application")
+    implementation project(":project2:entities")
+    implementation "org.springframework.boot:spring-boot-starter-web"
+    implementation "org.springframework.boot:spring-boot-starter-actuator"
+    implementation "com.fasterxml.jackson.module:jackson-module-kotlin"
+}
