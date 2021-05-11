@@ -1,7 +1,7 @@
 package org.project1.adapter.configuration
 
-import org.project1.usecase.foo.GetAllFoo
-import org.project1.usecase.foo.GetOneFoo
+import org.project1.usecase.foo.ListAllFoo
+import org.project1.usecase.foo.FindOneFoo
 import org.project1.usecase.foo.repository.FooRepository
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
@@ -10,8 +10,8 @@ import org.springframework.context.annotation.Configuration
 internal class ApplicationConfig {
 
     @Bean
-    fun buildGetOneFoo(fooRepository: FooRepository) = GetOneFoo(fooRepository)
+    fun findOneFoo(fooRepository: FooRepository) = FindOneFoo(fooRepository)
 
     @Bean
-    fun buildGetAllFoo(fooRepository: FooRepository) = GetAllFoo(fooRepository)
+    fun listAllFoo(fooRepository: FooRepository) = ListAllFoo(fooRepository)
 }
