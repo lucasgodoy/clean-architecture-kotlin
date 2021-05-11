@@ -1,3 +1,3 @@
 package org.project2.entity
 
-data class Bar(val id: Int, val name: String)
+data class Bar(val code: Int, val name: String)
