@@ -7,8 +7,8 @@ interface CreateFoo {
     operator fun invoke(newFooInput: NewFooInput): FooOutput
 }
 
-interface FindFooById {
-    operator fun invoke(id: Int): FooOutput
+interface FindFooByCode {
+    operator fun invoke(code: Int): FooOutput
 }
 
 interface ListFoo {
@@ -16,5 +16,5 @@ interface ListFoo {
 }
 
 interface DeleteFoo {
-    operator fun invoke(id: Int)
+    operator fun invoke(code: Int)
 }

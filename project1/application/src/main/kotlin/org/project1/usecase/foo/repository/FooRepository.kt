@@ -6,11 +6,11 @@ interface FooRepository {
 
     fun create(foo: Foo): Foo
 
-    fun findById(id: Int): Foo?
+    fun findByCode(code: Int): Foo?
 
     fun findByName(name: String): Foo?
 
     fun findAll(): List<Foo>
 
-    fun delete(id: Int)
+    fun delete(code: Int)
 }
