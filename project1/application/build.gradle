@@ -3,3 +3,4 @@ group 'org.project1.application'
 dependencies {
     implementation project(":project1:entities")
 }
+jar.enabled = true
