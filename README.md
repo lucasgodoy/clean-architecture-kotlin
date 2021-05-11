@@ -23,4 +23,4 @@
 #### STACK
 - IntelliJ IDEA 2020.1
 - Gradle 6.1 
-- Kotlin 1.3.72
+- Kotlin 1.4.32

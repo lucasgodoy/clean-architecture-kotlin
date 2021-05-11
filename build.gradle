@@ -1,8 +1,8 @@
-// This build.gradle contains all general dependencies and configurations applied to all projects.
-apply from: 'dependencies.gradle'
-
+// This build.gradle contains all general dependencies and configurations applied to all projects. If you need a
+// specific dependency in a specific project or module, please add that dependency directly in the project's/module's
+// build.gradle file
 buildscript {
-    ext.kotlin_version = '1.3.72'
+    apply from: "dependencies.gradle"
     repositories {
         mavenCentral()
     }

@@ -1,4 +1,6 @@
 ext {
+    kotlin_version = '1.4.32'
+
     // spring
     spring_version = '2.2.5.RELEASE'
     spring_dependencies_version = '1.0.9.RELEASE'
